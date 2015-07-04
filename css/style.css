@@ -1,0 +1,178 @@
+html, 
+body, 
+header {
+	height: 100%;
+}
+
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.container {
+	min-width: 780px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #cfe2f3;
+	font-family: sans-serif;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.header-logo {
+	float: left;
+}
+.header-logo img {
+	border-right: 1px solid black;
+}
+
+.header-text {
+	float: left;
+	line-height: 95px;
+	vertical-align: middle;
+}
+
+.header-text h1,
+ aside a {
+	vertical-align: center;
+	text-decoration: none;
+}
+
+aside {
+	position: absolute;
+	width: 220px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	top: 95px;
+	bottom: 0;
+}
+
+ul {
+	background: #b3daa5;
+}
+
+li {
+	box-sizing: border-box;
+	padding-top: 5px;
+	padding-left: 5px;
+	height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #90c27d;
+}
+
+main {
+	height: 500px;
+	margin: 0 0 0 220px;
+	min-width: 600px;
+}
+
+section:first-child {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+.data {
+	box-sizing: border-box;
+	width: 187px;
+	height: 118px;
+	background: #ebd1dc;
+	border: 1px solid black;
+}
+
+.main_content {
+	width: 652px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.data {
+	float: left;
+	margin: 15px;
+	position: relative;
+}
+
+.data h3 {
+	text-align: center;
+	width: 100px;
+	position: absolute;
+    top: 50%;
+    width: 100px;
+    left: 50%;
+    margin-top: -5.7%;
+    margin-left: -28%;
+}
+
+.content {
+	margin: 0px auto;
+	width: 90%;
+	margin-top: 20px;
+}
+
+.vertical_data {
+	width: 32%;
+	height: 141px;
+	background: #ebd1dc;
+	border: 1px solid black;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 2%;
+	position: relative;
+}
+
+.vertical_data:first-child {
+	margin-left: 0;
+}
+
+.vertical_data h3 {
+	width: 100px;
+	position: absolute;
+    top: 50%;
+    width: 100px;
+    margin-top: -8.5%;
+}
+
+.footer_centered_data {
+	background: #fde398;
+	height: 47px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 33.3%;
+	float: left;
+	min-width: 300px;
+	box-sizing: border-box;
+	display: table;
+}
+
+.footer_centered_data h4 {
+	width: 150px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+footer {
+	min-width: 900px;
+}
+
+.footer_centered_data:first-child {
+	border-left: 0;
+}
+
+.footer_content {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.footer_content p {
+	text-align: center;
+}
+
+
+
+
+
